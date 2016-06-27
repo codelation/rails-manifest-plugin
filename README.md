@@ -91,7 +91,7 @@ file and assume all assets have already been compiled.
 **Heroku Config Variables**
 
 We install all webpack packages as development dependencies in order to more easily keep track of our app's
-depencencies, so we need Herokku's nodejs buildpack to install dev dependencies so webpack can compile the
+depencencies, so we need Heroku's nodejs buildpack to install dev dependencies so webpack can compile the
 assets. This is done by setting the config variable `NPM_CONFIG_PRODUCTION` to `false`.
 
 ```
