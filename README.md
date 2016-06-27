@@ -15,6 +15,8 @@ $ npm install rails-manifest-plugin --save-dev
 Add to your production webpack config:
 
 ```js
+var RailsManifestPlugin = require('rails-manifest-plugin');
+
 {
   plugins: [
     new RailsManifestPlugin()
