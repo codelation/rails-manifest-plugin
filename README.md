@@ -42,6 +42,7 @@ projects have this in common in the webpack production config files:
 ```js
 var appRoot = require('app-root-path') + '';
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var RailsManifestPlugin = require('rails-manifest-plugin');
 
 module.exports = {
   module: {
