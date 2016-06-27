@@ -1,0 +1,20 @@
+{
+  "name": "rails-manifest-plugin",
+  "description": "A webpack plugin for generating a Rails manifest.json file for the compiled assets.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brian Pattison",
+    "email": "brian@codelation.com",
+    "url": "http://brianpattison.com"
+  },
+  "homepage": "https://github.com/codelation/rails-manifest-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codelation/rails-manifest-plugin.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "md5": "^2.1.0"
+  }
+}
